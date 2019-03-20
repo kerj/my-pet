@@ -1,0 +1,42 @@
+body {
+  background-color: slategrey;
+}
+
+h1 {
+  color: orange;
+  font-family: cursive;
+  font-weight: 900;
+}
+h2:hover  {
+  text-transform: uppercase;
+}
+
+img:hover {
+  resize: both;
+  height: 900px;
+  width: 900px;
+}
+
+ul  {
+  font-family: monospace;
+}
+
+ol  {
+  font-family: sans-serif;
+}
+
+li:nth-child(3):hover {
+  color: cyan;
+}
+
+li:nth-child(2) {
+  color: cyan;
+}
+li:nth-child(1) {
+  color: red;
+  font-weight: bold;
+}
+
+a {
+  color: purple;
+}
